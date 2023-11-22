@@ -41,6 +41,10 @@
 	height: 40px;
 }
 
+.iconsFromArticles {
+	display: flex;
+}
+
 .bookmarkIcon {
 	cursor: pointer;
 }
