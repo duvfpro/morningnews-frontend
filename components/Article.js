@@ -46,7 +46,7 @@ function Article(props) {
 				<a className={styles.outLink} href={props.url} target="_blank" rel="noopener noreferrer">
 					<h3>{props.title}</h3>
 				</a>
-				<div className={styles.icons}>
+				<div className={styles.iconsFromArticles}>
 					<FontAwesomeIcon onClick={() => handleBookmarkClick()} icon={faBookmark} style={iconStyle} className={styles.bookmarkIcon} />
 					<FontAwesomeIcon icon={faEyeSlash} onClick={() => hiddeArticle()}/>
 				</div>

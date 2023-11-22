@@ -43,6 +43,7 @@
 
 .iconsFromArticles {
 	display: flex;
+	padding: 4px;
 }
 
 .bookmarkIcon {
