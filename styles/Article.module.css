@@ -44,6 +44,8 @@
 .iconsFromArticles {
 	display: flex;
 	padding: 4px;
+	justify-content: center;
+	align-items: center;
 }
 
 .iconPadding{
