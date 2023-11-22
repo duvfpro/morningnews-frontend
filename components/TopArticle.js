@@ -34,17 +34,23 @@ function TopArticle(props) {
 	}
 
 	return (
-		<a className={styles.outLink} href={props.url} target="_blank" rel="noopener noreferrer">
+		
 		<div className={styles.topContainer}>
-			<img src={props.urlToImage} className={styles.image} alt={props.title} />
+			<a className={styles.outLink} href={props.url} target="_blank" rel="noopener noreferrer">
+				<img src={props.urlToImage} className={styles.image} alt={props.title} />
+			</a>
 			<div className={styles.topText}>
-				<h2 className={styles.topTitle}>{props.title}</h2>
+				<a className={styles.outLink} href={props.url} target="_blank" rel="noopener noreferrer">
+					<h2 className={styles.topTitle}>{props.title}</h2>
+				</a>
 				<FontAwesomeIcon onClick={() => handleBookmarkClick()} icon={faBookmark} style={iconStyle} className={styles.bookmarkIcon} />
-				<h4>{props.author}</h4>
-				<p>{props.description}</p>
+				<a className={styles.outLink} href={props.url} target="_blank" rel="noopener noreferrer">
+					<h4>{props.author}</h4>
+					<p>{props.description}</p>
+				</a>
 			</div>
 		</div>
-		</a>
+		
 	);
 }
 
