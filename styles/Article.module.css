@@ -46,6 +46,10 @@
 	padding: 4px;
 }
 
+.iconPadding{
+	padding: 4px;
+}
+
 .bookmarkIcon {
 	cursor: pointer;
 }
