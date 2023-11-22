@@ -1,0 +1,50 @@
+.outLink:link{
+	color: rgb(0, 0, 0);
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  .outLink:visited{
+	color: rgb(142, 142, 142);
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  .outLink:hover{
+	color: rgb(89, 120, 171);
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  
+  .outLink:active{
+	color: rgb(114, 114, 114);
+	background-color: transparent;
+	text-decoration: underline;
+  }
+
+.articles {
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: rgb(233, 190, 89);
+	margin: 15px 0px 15px 0px
+}
+
+.articleHeader {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+}
+
+.bookmarkIcon {
+	cursor: pointer;
+}
+
+.bookmarkIcon:hover {
+	opacity: 0.6;
+}
